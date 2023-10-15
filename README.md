@@ -1,6 +1,18 @@
-# Markov chains to predict optimum career path 
+# Markov chains to predict optimum career path
 
 This is a notebook showcasing the application of Markov chains to find the shortest career path from a given start position to a target position.
+
+## Table of Contents
+
+- [Problem description](#problem-description)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+## Problem description
 
 We view a career path as a sequence of multiple nodes/positions:  (X1, X2, X3, …Xn) using the transitions occurred in the past. Given a person’s current position and his/her goal, wediscover the optimal career path, that is, the path that has the highest probability to reach the goal node.
 
@@ -19,13 +31,6 @@ Shortest path: we want to predict the optimal path P* = xi1 , xi2 , … , xin
 <b>We use a graph with states (positions) as vertices and       as        weight on edges. Solving the problem is equivalent to finding a shortest path between a single source and a single destination on directed graph
 The problem can be solved using Dijkstra’s algorithm.</b>
 
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Getting Started
 
@@ -58,11 +63,6 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-```
-## Usage
-
-```bash
-streamlit run lapetitefleur.py
 ```
 
 ## Contributing
